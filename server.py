@@ -11,3 +11,9 @@ if __name__ == "__main__":
 
     # Connecting instance of Celery to Flask app
     celery.init_app(app)
+
+
+# Three tabs:
+# 1. python server.py
+# 2. celery worker -l info --beat
+# 3. redis-server
